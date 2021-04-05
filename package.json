@@ -1,0 +1,36 @@
+{
+  "name": "easyexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node  src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "../remo.git"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.0",
+    "cors": "^2.8.4",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "feed-read": "0.0.1",
+    "googleapis": "^39.2.0",
+    "lodash": "^4.17.15",
+    "nodemailer": "^4.1.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
